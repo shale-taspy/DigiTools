@@ -41,10 +41,9 @@ const Navbar = () => {
         <div className="hidden md:flex gap-3.5 items-center">
           <div className="flex gap-2 items-center font-medium text-[#101727] cursor-pointer">
             <ShoppingCart className="w-5 h-5" />
-            
           </div>
           <h1 className="font-medium text-[#101727] cursor-pointer hover:text-[#4F39F6] transition">Login</h1>
-          <button className="bg-gradient-to-l from-[#4F39F6] to-[#9514FA] px-6 py-2.5 text-white font-medium rounded-full hover:opacity-90 transition">
+          <button className="bg-gradient-to-l from-[#4F39F6] to-[#9514FA] px-6 py-2.5 text-white font-medium cursor-pointer rounded-full hover:opacity-90 transition">
             Get Started
           </button>
         </div>
