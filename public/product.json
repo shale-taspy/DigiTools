@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "AI Content Writer Pro",
+    "description": "Generate high-converting blog posts, marketing copy, and social media content in seconds with advanced AI.",
+    "price": 29,
+    "period": "mo",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Unlimited AI Generation", "SEO Optimization Tool", "50+ Copywriting Templates", "Export to PDF/Docs"],
+    "icon": "PenTool"
+  },
+  {
+    "id": 2,
+    "name": "SaaS Dashboard Kit",
+    "description": "A comprehensive UI kit built with React and Tailwind CSS for rapid dashboard development.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["100+ UI Components", "Dark/Light Mode", "Figma Source Files", "Lifetime Updates"],
+    "icon": "LayoutDashboard"
+  },
+  {
+    "id": 3,
+    "name": "AI Image Enhancer",
+    "description": "Upscale, denoise, and restore low-resolution images instantly using machine learning models.",
+    "price": 19,
+    "period": "mo",
+    "tag": "Trending",
+    "tagType": "trending",
+    "features": ["Up to 8K Upscaling", "Batch Processing", "Background Removal", "API Access"],
+    "icon": "Image"
+  },
+  {
+    "id": 4,
+    "name": "SEO Keyword Tracker",
+    "description": "Track search engine rankings, analyze competitor keywords, and optimize your site's search visibility.",
+    "price": 39,
+    "period": "mo",
+    "tag": null,
+    "tagType": null,
+    "features": ["Daily Keyword Refresh", "Competitor Benchmarking", "Automated PDF Reports", "SERP History"],
+    "icon": "TrendingUp"
+  },
+  {
+    "id": 5,
+    "name": "E-Commerce Mobile App Template",
+    "description": "Cross-platform React Native starter code designed for modern online stores.",
+    "price": 59,
+    "period": "one-time",
+    "tag": "Best Value",
+    "tagType": "popular",
+    "features": ["iOS & Android Ready", "Stripe & PayPal Integration", "Cart & Checkout Flow", "Push Notifications"],
+    "icon": "Smartphone"
+  },
+  {
+    "id": 6,
+    "name": "AI Voice Generator",
+    "description": "Convert written text into natural, human-like voiceovers in over 30 languages.",
+    "price": 25,
+    "period": "mo",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["120+ AI Voices", "Emotion & Tone Control", "Commercial Usage Rights", "MP3/WAV Export"],
+    "icon": "Mic"
+  },
+  {
+    "id": 7,
+    "name": "Tailwind UI Components Pack",
+    "description": "Ready-to-use modern web components designed for seamless copy-pasting into your projects.",
+    "price": 35,
+    "period": "one-time",
+    "tag": null,
+    "tagType": null,
+    "features": ["Fully Responsive", "Accessible (WCAG)", "Clean React Code", "No External Dependencies"],
+    "icon": "Code"
+  },
+  {
+    "id": 8,
+    "name": "Code Refactor AI",
+    "description": "Automated code review and refactoring assistant to optimize performance and fix security flaws.",
+    "price": 29,
+    "period": "mo",
+    "tag": "Trending",
+    "tagType": "trending",
+    "features": ["VS Code Extension", "Supports 15+ Languages", "Automated Bug Detection", "Performance Suggestions"],
+    "icon": "Terminal"
+  },
+  {
+    "id": 9,
+    "name": "Social Media Scheduler",
+    "description": "Plan, schedule, and analyze social media posts across Twitter, LinkedIn, and Instagram.",
+    "price": 15,
+    "period": "mo",
+    "tag": null,
+    "tagType": null,
+    "features": ["Visual Content Calendar", "Auto-Hashtag Generator", "Analytics Dashboard", "Multi-Account Support"],
+    "icon": "Calendar"
+  },
+  {
+    "id": 10,
+    "name": "3D Icon Asset Bundle",
+    "description": "A collection of 200+ high-resolution 3D icons for web apps, landing pages, and pitch decks.",
+    "price": 22,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["PNG & Blender Files", "4K Resolution", "Transparent Backgrounds", "Commercial License"],
+    "icon": "Box"
+  },
+  {
+    "id": 11,
+    "name": "AI Video Background Remover",
+    "description": "Remove or replace backgrounds from videos seamlessly without requiring a green screen.",
+    "price": 45,
+    "period": "mo",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["4K Video Support", "One-Click Processing", "Custom Backgrounds", "MP4 & GIF Export"],
+    "icon": "Video"
+  },
+  {
+    "id": 12,
+    "name": "Developer Portfolio Template",
+    "description": "Sleek, responsive portfolio template built with Next.js, Framer Motion, and Tailwind CSS.",
+    "price": 19,
+    "period": "one-time",
+    "tag": null,
+    "tagType": null,
+    "features": ["MDX Blog Integrated", "Smooth Scroll Animations", "Contact Form Setup", "SEO Optimized"],
+    "icon": "UserCheck"
+  }
+]
