@@ -1,11 +1,13 @@
 import { use } from "react";
 import ProductCard from "./ProductCard";
 import { useState } from "react";
+import Cart from "./Cart";
 
 
 const Product = ({ productPromise }) => {
   const products = use(productPromise)
-  const [selectType,SetSelectedType]=useState('Products')
+  const [selectType, SetSelectedType] = useState('Products')
+  const [selectedItem,setSelectedItem] =useState([])
   
   return (
     <div className="container mx-auto mt-15">
@@ -39,14 +41,14 @@ const Product = ({ productPromise }) => {
                      : 'text-gray-600 hover:text-gray-900'
                  }`}
                >
-                 Cart (2)
+                 Cart ({selectedItem.length})
                </button>
          </div>
        </div>
      </div>
       {/*Cards*/}
       <div>
-      <ProductCard products={products}></ProductCard>
+        {selectType === 'Products' ? <ProductCard products={products} setSelectedItem={setSelectedItem} selectedItem={selectedItem}></ProductCard> : <Cart products={products} selectedItem={selectedItem} setSelectedItem={setSelectedItem}></Cart>}
       </div>
     </div>
   );
