@@ -1,19 +1,42 @@
+import { Bounce, Slide, toast } from "react-toastify";
 import CartCard from "./CartCard";
 
 const Cart = ({ selectedItem, setSelectedItem }) => {
   const handleDeleteItem = (product) => {
     const filteredItems = selectedItem.filter(
       (item) => item.name !== product.name
+      
     );
     setSelectedItem(filteredItems);
+    toast.warn(`${product.name} is removed`, {
+    position: "top-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: false,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "dark",
+    transition: Slide,
+    });
   };
   const total = selectedItem?.reduce((sum, item) => sum + Number(item.price || 0), 0) || 0;
 
   const handleCheckout = () => {
     if (selectedItem?.length === 0) return;
     
-    alert("Order placed successfully!");
-    setSelectedItem([]); // 👈 Clears the cart
+    toast.info('Thanks for shopping', {
+    position: "top-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: false,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "light",
+    transition: Bounce,
+    });
+    setSelectedItem([]);
   };
 
   return (

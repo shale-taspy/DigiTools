@@ -1,10 +1,20 @@
 import * as Icons from "lucide-react";
 import { useState } from "react";
-import { toast } from "react-toastify";
+import { Bounce, toast } from "react-toastify";
 
 const Card = ({ product,selectedItem,setSelectedItem}) => {
   const handleClick = () => {
-    toast(`${product.name} is selected`)
+    toast.success(`${product.name} is selected`, {
+    position: "top-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: false,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "dark",
+    transition: Bounce,
+    });
     setIsSelected(true)
     setSelectedItem([...selectedItem,product])
   }
