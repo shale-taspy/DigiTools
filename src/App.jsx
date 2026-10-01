@@ -4,6 +4,7 @@ import Product from "./components/Product"
 import Stats from "./components/Stats"
 import Home from "./pages/Home"
 import Loading from "./components/Loading"
+import Steps from "./components/Steps"
 
 function App() {
   const product = async () => {
@@ -19,6 +20,7 @@ function App() {
       <Suspense fallback={<Loading></Loading>}>
         <Product productPromise={productPromise}></Product>
       </Suspense>
+      <Steps></Steps>
     </>
   )
 }
