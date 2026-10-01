@@ -2,8 +2,6 @@ import { use } from "react";
 import ProductCard from "./ProductCard";
 import { useState } from "react";
 import Cart from "./Cart";
-
-
 const Product = ({ productPromise }) => {
   const products = use(productPromise)
   const [selectType, SetSelectedType] = useState('Products')

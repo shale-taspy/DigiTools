@@ -5,6 +5,8 @@ import Stats from "./components/Stats"
 import Home from "./pages/Home"
 import Loading from "./components/Loading"
 import Steps from "./components/Steps"
+import Pricing from "./components/Pricing"
+import Footer from "./components/Footer"
 
 function App() {
   const product = async () => {
@@ -21,6 +23,8 @@ function App() {
         <Product productPromise={productPromise}></Product>
       </Suspense>
       <Steps></Steps>
+      <Pricing></Pricing>
+      <Footer></Footer>
     </>
   )
 }
