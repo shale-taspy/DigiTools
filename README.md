@@ -4,8 +4,6 @@
 
 Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.
 
-[Live Demo](#) · [Report Bug](#) · [Request Feature](#)
-
 </div>
 
 ---
@@ -20,7 +18,7 @@ Premium digital tools for creators, professionals, and businesses. Work smarter 
 
 * **Frontend Framework:** [React.js](https://react.dev/)
 * **Styling & UI:** [Tailwind CSS](https://tailwindcss.com/)
-* **Icon Library:** [Lucide React](https://lucide.dev/)
+* **Icon Library:** [Lucide React](https://lucide.dev/),[React Icons](https://react-icons.github.io/react-icons/)
 * **Build Tool:** [Vite](https://vitejs.dev/)
 
 ---
